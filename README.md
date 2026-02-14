@@ -1,39 +1,56 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="./src/images/logo-a.svg" width="100" />
 </div>
 <h1 align="center">
-  brittanychiang.com - v4
+  Analice Leite - Portfolio
 </h1>
-<p align="center">
-  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-</p>
-<p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-  </a>
-</p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![demo](./src/images/demo.png)
 
-## 🚨 Forking this repo (please read!)
+## 👋 Welcome!
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+My personal portfolio built with **Gatsby** and **React**. Here you'll find my projects, work experience, and a bit more about me as a developer.
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+📱 **Visit:** [analice-dev.vercel.app](https://analice-dev.vercel.app)
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+---
 
-### TL;DR
+## 💡 About This Project
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+This portfolio was built based on the design and code structure of **[Brittany Chiang](https://brittanychiang.com)**. I'm grateful for her incredible work in sharing this open architecture, which served as an excellent foundation for creating my personalized portfolio.
 
-## 🛠 Installation & Set Up
+**Credits:**
+
+- Original design & architecture: [Brittany Chiang](https://brittanychiang.com)
+- Original repository: [bchiang7/v4](https://github.com/bchiang7/v4)
+
+### Customizations included:
+
+✅ Custom content and projects  
+✅ Custom color scheme (yellow #faad20)  
+✅ Additional portfolio projects  
+✅ Deployed on Vercel
+
+---
+
+## � Forking This Repo (Please Read!)
+
+If you fork this repository to create your own portfolio, please note:
+
+1. **Always give credit to [Brittany Chiang](https://brittanychiang.com)** for the original design and architecture
+2. **Link back to her site** in your README or project somewhere
+3. **Do not claim the design as your own** — modify and personalize it, but acknowledge the source
+
+This repository is open source and available for you to build upon, but I ask that you respect the original creator's work. Just as I credited Brittany for her contribution, please do the same if you fork this project.
+
+### Quick Reference:
+
+- 🔗 [Brittany Chiang's Portfolio](https://brittanychiang.com)
+- 📦 [Original Repository](https://github.com/bchiang7/v4)
+
+---
+
+## �🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
 
@@ -50,7 +67,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 3. Install dependencies
 
    ```sh
-   yarn
+   npm install --legacy-peer-deps
    ```
 
 4. Start the development server
@@ -67,21 +84,25 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
    npm run build
    ```
 
-1. Preview the site as it will appear once deployed
+2. Preview the site as it will appear once deployed
 
    ```sh
    npm run serve
    ```
 
-## 🎨 Color Reference
+## 📁 Tech Stack
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+- **Framework:** Gatsby v3.4.1
+- **UI Library:** React 17.0.2
+- **Styling:** styled-components v5.3.0
+- **Deployment:** Vercel
+- **Node Version:** 16 (via .nvmrc)
+- **Code Quality:** ESLint + Prettier
+
+## 📝 License
+
+This project maintains the MIT license from the original project. For more details, see the [LICENSE](./LICENSE) file.
+
+---
+
+**Made with ❤️ by Analice Leite | Based on the design of [Brittany Chiang](https://brittanychiang.com)**
