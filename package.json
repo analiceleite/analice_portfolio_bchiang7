@@ -76,8 +76,5 @@
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
-  },
-  "overrides": {
-    "graphql": "15.8.0"
   }
 }
