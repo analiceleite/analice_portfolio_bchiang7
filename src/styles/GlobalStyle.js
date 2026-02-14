@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
   /* Scrollbar Styles */
   html {
     scrollbar-width: thin;
-    scrollbar-color: var(--dark-slate) var(--navy);
+    scrollbar-color: var(--medium-purple) var(--navy);
   }
   ::-webkit-scrollbar {
     width: 12px;
@@ -62,7 +62,7 @@ const GlobalStyle = createGlobalStyle`
     background: var(--navy);
   }
   ::-webkit-scrollbar-thumb {
-    background-color: var(--dark-slate);
+    background-color: var(--medium-purple);
     border: 3px solid var(--navy);
     border-radius: 10px;
   }

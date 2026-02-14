@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .hexagon { fill: #0a192f; stroke: #faad20; stroke-width: 5; }
+      .letter { fill: #faad20; }
+    </style>
+  </defs>
+  <polygon class="hexagon" points="50,5 11,27 11,72 50,95 89,73 89,28"/>
+  <path class="letter" d="M39,30.3 L49.5,61 L44.2,61 L41.8,53.5 L36.2,53.5 L33.8,61 L28.5,61 L39,30.3 Z M39,35.8 L37.2,48.8 L40.8,48.8 L39,35.8 Z" transform="translate(11, 5)"/>
+</svg>
