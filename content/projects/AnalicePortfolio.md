@@ -1,6 +1,6 @@
 ---
 date: '2026-02-14'
-title: 'Analice Portfolio'
+title: 'Portfolio'
 github: 'https://github.com/analiceleite/analice_portfolio'
 external: 'https://analice-portfolio.vercel.app'
 tech:
